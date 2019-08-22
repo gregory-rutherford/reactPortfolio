@@ -1,10 +1,14 @@
 import React from 'react';
 import Main from "./Pages/Main.js";
+import Projects from "./Pages/Projects.js";
 
 
 function App() {
   return (
-    <Main />
+    <div>
+      <Main />
+      <Projects />
+    </div>
   );
 }
 
