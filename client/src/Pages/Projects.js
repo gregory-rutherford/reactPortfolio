@@ -28,10 +28,10 @@ const Projects = function Projects () {
               <div className="tag">
                 <Tag.Group gapless>
                   <Tag color="dark">
-                    <a href={item.ghLink}>Code</a>
+                    <a className="pill" href={item.ghLink}>Code</a>
                   </Tag>
                   <Tag color="info">
-                    <a href={item.deployedLink}>Demo</a>
+                    <a className="pill" href={item.deployedLink}>Demo</a>
                   </Tag>
                 </Tag.Group>
               </div>

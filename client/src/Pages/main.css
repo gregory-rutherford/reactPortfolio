@@ -3,7 +3,7 @@
 
 .box {
   font-family: 'Rokkitt', serif;
-    background-color: #848fa5bb;
+    background-color: #848fa5bb !important;
     text-align: center;
     align-items: baseline;
     color: #2e2f2f;
@@ -14,11 +14,11 @@
     border-radius: 5%;
 }
 
-.contact {
+.contactLinks {
     color: #e9dab3 !important;
     text-shadow: 1px 1px #2e2f2f86;
 }
-.contact:hover {
+.contactLinks:hover {
     color: #fdfffc !important;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.671);
 }
@@ -27,8 +27,8 @@ p {
     font-size: 22px;
 }
 
-h5 {
-    font-size: 42px;
+.contactHead {
+    font-size: 42px !important;
     font-family: "Roboto Mono", monospace;
     margin: 14px;
 }
