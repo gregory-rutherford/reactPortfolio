@@ -7,15 +7,16 @@ const Main = function Main() {
     <main className="top">
       <Box>
         <Columns>
-          <Columns.Column>
+          <Columns.Column>          
             <img
               className="profileImg"
               src="https://avatars1.githubusercontent.com/u/46570985?s=460&v=4"
               alt="profile"
             />
+            <p>with "Hachiko" at Shibuya Station in Tokyo</p>
           </Columns.Column>
           <Columns.Column>
-            <h3>
+            <h3 className="intro">
               Hi, my name is Gregory Rutherford. I am a front end web
               developer.
             </h3>
@@ -43,9 +44,9 @@ const Main = function Main() {
             <h5>
               <a
                 className="contact"
-                href="https://www.linkedin.com/in/gregory-rutherford-01aba73b/"
+                href="https://drive.google.com/file/d/19bJeEmeZQrjdfbJyLwCMnNOdKPDcU_1-/view"
               >
-                linkedin
+                resume
               </a>
             </h5>
           </Columns.Column>

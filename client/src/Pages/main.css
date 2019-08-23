@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 .box {
   font-family: 'Rokkitt', serif;
-    font-size: 48px;
     background-color: #848fa5bb;
     text-align: center;
     align-items: baseline;
@@ -15,10 +15,25 @@
 }
 
 .contact {
-    color: #e5dcc5 !important;
+    color: #e9dab3 !important;
     text-shadow: 1px 1px #2e2f2f86;
 }
 .contact:hover {
     color: #fdfffc !important;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.671);
+}
+
+p {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 42px;
+    font-family: "Roboto Mono", monospace;
+    margin: 14px;
+}
+
+.intro {
+    margin-top: 10px;
+    font-size: 60px;
 }

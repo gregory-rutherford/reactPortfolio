@@ -14,6 +14,7 @@ const Projects = function Projects () {
 
     return (
       <div className="projBox">
+        <h3 className="title">Recent Work</h3>
         {data.map(item => (
           <Card className="card">
             <img className="projectPic" src={item.imgLink} alt="project" />
@@ -37,6 +38,7 @@ const Projects = function Projects () {
             </Media.Item>
           </Card>
         ))}
+        <a href="#top" className="anchor">Top</a>
       </div>
     );
 };

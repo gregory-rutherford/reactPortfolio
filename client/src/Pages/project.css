@@ -29,6 +29,14 @@
   text-align: center;
   background-color: #848fa536;
   padding: 5px;
+  letter-spacing: 1px;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 48px;
 }
 
 .tag {
@@ -45,4 +53,16 @@ a {
 
 a:hover {
   color: rgb(86, 121, 141);
+}
+
+.anchor {
+  text-align: center;
+  color: #2e2f2f;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .text {
+        width: 100vw;
+    }
 }
