@@ -4,6 +4,7 @@
   height: 250px;
   width: 500px;
   filter: blur(20%) grayscale(20%);
+  margin-bottom: 0px;
 }
 
 .projBox {
@@ -50,6 +51,7 @@
 
 .pill {
   color: white;
+  text-shadow: none;
 }
 
 a:hover {

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {Card, Media, Heading, Tag} from "react-bulma-components";
 import projectData from "../Data.js";
-import "./project.css";
+import "./body.css";
 
 const Body = function Body () {
     const [data, setData] = useState([]);

@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Columns } from "react-bulma-components/full";
-import "./main.css";
+import "./header.css";
 
 const Header = function Header() {
   return (
