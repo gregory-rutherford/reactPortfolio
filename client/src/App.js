@@ -1,12 +1,16 @@
 import React from 'react';
-import Main from "./Pages/Main.js";
-import Projects from "./Pages/Projects.js";
+import Header from "./Pages/Header";
+import Projects from "./Pages/Body.js";
+import Nav from "./Components/Nav";
+import typography from "./Utils/typography";
 
 
 function App() {
+   
   return (
     <div>
-      <Main />
+      <Header />
+      <Nav />
       <Projects />
     </div>
   );

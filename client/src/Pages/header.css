@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
-
 .box {
-  font-family: 'Rokkitt', serif;
+  /* font-family: 'Rokkitt', serif; */
     background-color: #848fa5bb !important;
     text-align: center;
     align-items: baseline;
@@ -12,6 +9,8 @@
 .profileImg {
     box-shadow: 1px 1px 2px black;
     border-radius: 5%;
+    height: 375px;
+    width: 375px;
 }
 
 .contactLinks {
@@ -24,12 +23,12 @@
 }
 
 p {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .contactHead {
     font-size: 42px !important;
-    font-family: "Roboto Mono", monospace;
+    /* font-family: "Roboto Mono", monospace; */
     margin: 14px;
 }
 
