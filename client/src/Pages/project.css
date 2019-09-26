@@ -1,20 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
-
 .projectPic {
   /* box-shadow: 1px 1px 3px grey; */
   border-bottom: 1px solid rgba(128, 128, 128, 0.322);
   height: 250px;
   width: 500px;
+  filter: blur(20%) grayscale(20%);
 }
 
 .projBox {
   display: flex;
+  display: grid;
   flex-flow: column wrap;
   align-content: center;
   justify-content: center;
   box-shadow: 1px 1px 3px grey;
-  font-family: "Roboto Mono", monospace;
+  /* font-family: "Roboto Mono", monospace; */
   background: #848fa570;
+
 }
 
 .card {

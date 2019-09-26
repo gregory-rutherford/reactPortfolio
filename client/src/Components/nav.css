@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #e3cbcb;
+}
+
+.contactLinks {
+    color: #79766e !important;
+    text-shadow: 1px 1px #fceaeab7
+}
