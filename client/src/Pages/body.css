@@ -1,71 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 .projectPic {
-  /* box-shadow: 1px 1px 3px grey; */
   border-bottom: 1px solid rgba(128, 128, 128, 0.322);
   height: 250px;
   width: 500px;
-  filter: blur(20%) grayscale(20%);
   margin-bottom: 0px;
+    cursor: pointer;
 }
 
 .projBox {
   display: flex;
-  display: grid;
   flex-flow: column wrap;
   align-content: center;
   justify-content: center;
   box-shadow: 1px 1px 3px grey;
-  /* font-family: "Roboto Mono", monospace; */
   background: #848fa570;
+  font-family: "PT Sans Narrow", sans-serif;
+}
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 .card {
   display: flex;
   flex-flow: column wrap;
   margin: 10px;
-  
+
 }
+
+
 
 .text {
   width: 500px;
   text-align: center;
   background-color: #848fa536;
   padding: 5px;
-  letter-spacing: 1px;
+  letter-spacing: .65px;
+  height: 100%;
+  align-items: center;
 }
 
 .title {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-align: center;
   margin-top: 20px;
   font-size: 48px;
 }
 
-.tag {
-    display: flex !important;
-}
-
-.tag:not(body) {
-    background-color: #848fa536;
-}
-
-.pill {
-  color: white;
-  text-shadow: none;
-}
-
-a:hover {
-  color: rgb(86, 121, 141);
-}
-
 .anchor {
-  text-align: center;
-  color: #2e2f2f;
-  margin-bottom: 5px;
+  align-self: center;
 }
+
 
 @media only screen and (max-width: 500px) {
-    .text {
-        width: 100vw;
-    }
+  .text {
+    width: 100vw;
+  }
 }

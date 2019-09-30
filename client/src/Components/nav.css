@@ -1,11 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #e3cbcb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #e3cbcb;
+  font-family: "PT Sans", sans-serif;
 }
 
 .contactLinks {
-    color: #79766e !important;
-    text-shadow: 1px 1px #fceaeab7
+  color: black !important;
+  text-shadow: 1px 1px #eafcf9b7;
+}
+
+.contactLinks:hover {
+    color: #fffffe !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.671);
 }
