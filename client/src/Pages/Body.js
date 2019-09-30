@@ -1,23 +1,27 @@
-import React, {useState, useEffect} from "react";
-import {Card, Media, Heading, Tag} from "react-bulma-components";
+import React, { useState, useEffect } from "react";
+import { Card, Media, Heading } from "react-bulma-components";
 import projectData from "../Data.js";
 import "./body.css";
 
-const Body = function Body () {
-    const [data, setData] = useState([]);
-    
-    useEffect (() => {
-        setData(projectData);
-    }, []);
+const Body = function Body() {
+  const [data, setData] = useState([]);
 
-    
+  useEffect(() => {
+    setData(projectData);
+  }, []);
 
-    return (
-      <div className="projBox">
-        <p className="title">Recent Work</p>
+  return (
+    <div className="projBox">
+      <p className="title">Recent Work</p>
+      <div className="grid">
         {data.map(item => (
           <Card className="card">
-            <img className="projectPic" src={item.imgLink} alt="project" />
+            <img
+              className="projectPic"
+              src={item.imgLink}
+              alt="project"
+              onClick={() => window.location.href=`${item.deployedLink}`}
+            />
             <Media.Item renderAs="figure">
               <div className="text">
                 <Heading size={3}>{item.title}</Heading>
@@ -25,22 +29,15 @@ const Body = function Body () {
                   {item.description}
                 </Heading>
               </div>
-              <div className="tag">
-                <Tag.Group gapless>
-                  <Tag color="dark">
-                    <a className="pill" href={item.ghLink}>Code</a>
-                  </Tag>
-                  <Tag color="info">
-                    <a className="pill" href={item.deployedLink}>Demo</a>
-                  </Tag>
-                </Tag.Group>
-              </div>
             </Media.Item>
           </Card>
         ))}
-        <a href="#top" className="anchor">Top</a>
       </div>
-    );
+      <a href="#top" className="anchor">
+        Top
+      </a>
+    </div>
+  );
 };
 
 export default Body;

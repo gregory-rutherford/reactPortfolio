@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 .box {
   /* font-family: 'Rokkitt', serif; */
-    background-color: #848fa5bb !important;
+    background-color: #848fa58c !important;
     text-align: center;
     align-items: baseline;
-    color: #2e2f2f;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .profileImg {
@@ -13,14 +15,12 @@
     width: 375px;
 }
 
-.contactLinks {
-    color: #e9dab3 !important;
-    text-shadow: 1px 1px #2e2f2f86;
+.column {
+    align-self: center;
+    margin-right: 40px;
 }
-.contactLinks:hover {
-    color: #fdfffc !important;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.671);
-}
+
+
 
 p {
     font-size: 18px;
@@ -28,7 +28,6 @@ p {
 
 .contactHead {
     font-size: 42px !important;
-    /* font-family: "Roboto Mono", monospace; */
     margin: 14px;
 }
 
