@@ -20,7 +20,7 @@ const Header = function Header() {
           </Columns.Column>
           <Columns.Column>
             <p className="intro">
-              Hi, my name is Gregory Rutherford. I am a front end web developer.
+              Hi, my name is Gregory Rutherford. I am a full stack web developer.
             </p>
           </Columns.Column>
         </Columns>
