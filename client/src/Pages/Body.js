@@ -12,7 +12,7 @@ const Body = function Body() {
 
   return (
     <div className="projBox">
-      <p className="title">Recent Work</p>
+      <p className="recent">Recent Work</p>
       <div className="grid">
         {data.map(item => (
           <Card className="card">

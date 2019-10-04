@@ -14,7 +14,8 @@
   justify-content: center;
   box-shadow: 1px 1px 3px grey;
   background: #848fa570;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 60px;
 }
 
 .grid {
@@ -43,14 +44,19 @@
   align-items: center;
 }
 
-.title {
+.recent {
   text-align: center;
   margin-top: 20px;
   font-size: 48px !important;
+  color: black !important;
 }
 
 .anchor {
   align-self: center;
+}
+
+.subtitle {
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 
