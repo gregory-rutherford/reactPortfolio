@@ -35,13 +35,14 @@
 
 
 .text {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   text-align: center;
   background-color: #848fa536;
   padding: 5px;
-  letter-spacing: .65px;
+  letter-spacing: .45px;
   height: 100%;
-  align-items: center;
 }
 
 .recent {
@@ -58,6 +59,27 @@
 .subtitle {
   font-family: "PT Sans Narrow", sans-serif;
 }
+
+.anchor {
+  color: black !important;
+}
+
+#ghLink {
+  align-self: flex-end;
+  font-size: 14px;
+}
+
+.anchor:hover {
+  color: blue !important;
+}
+
+.projectPic:hover {
+  filter: drop-shadow(5px 5px 5px #848fa58c);
+}
+
+
+
+
 
 
 @media only screen and (max-width: 500px) {

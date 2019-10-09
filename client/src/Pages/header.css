@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 .box {
-    background-color: #848fa58c !important;
+    background-color: #9daac58c !important;
     text-align: center;
     align-items: baseline;
     color: black !important;
@@ -19,7 +19,7 @@
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .contactHead {
@@ -31,3 +31,4 @@ p {
     margin-top: 10px;
     font-size: 60px;
 }
+

@@ -20,8 +20,18 @@ const Header = function Header() {
           </Columns.Column>
           <Columns.Column>
             <p className="intro">
-              Hi, my name is Gregory Rutherford. I am a full stack web developer.
+              Hi, my name is Gregory Rutherford. I am a full stack web
+              developer.
             </p>
+            <div id="summary">
+              <p>
+                I am a recent graduate of the UT Austin Coding Bootcamp. My
+                professional background is primarily in logistics, but I am
+                excited to demonstrate my new skills and grow as a developer. I
+                would like to collaborate with a team of developers to work on
+                cutting edge, accessible, and responsive web applications. Currently I'm quite fond of React and most of my recent work has been built using Create React App. 
+              </p>
+            </div>
           </Columns.Column>
         </Columns>
       </Box>

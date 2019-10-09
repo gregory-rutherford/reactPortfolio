@@ -20,11 +20,13 @@ const Body = function Body() {
               className="projectPic"
               src={item.imgLink}
               alt="project"
-              onClick={() => window.location.href=`${item.deployedLink}`}
+              onClick={() => (window.location.href = `${item.deployedLink}`)}
             />
             <Media.Item renderAs="figure">
               <div className="text">
-                <Heading size={3}>{item.title}</Heading>
+                <a href={item.ghLink}>
+                  <Heading size={3}>{item.title}</Heading>
+                </a>
                 <Heading subtitle size={5}>
                   {item.description}
                 </Heading>
