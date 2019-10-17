@@ -16,12 +16,13 @@ const Body = function Body() {
       <div className="grid">
         {data.map(item => (
           <Card className="card">
-            <img
-              className="projectPic"
-              src={item.imgLink}
-              alt="project"
-              onClick={() => (window.location.href = `${item.deployedLink}`)}
-            />
+            <a className="imgLink" href={item.deployedLink}>
+              <img
+                className="projectPic"
+                src={item.imgLink}
+                alt="project"       
+              />
+            </a>
             <Media.Item renderAs="figure">
               <div className="text">
                 <a href={item.ghLink}>
