@@ -36,7 +36,7 @@ const projectData = [
   },
   {
     title: "CLI Mock Amazon",
-    ghLink: "",
+    ghLink: "https://github.com/gregory-rutherford/Amazon2-TheReturn/blob/master/managerview.js",
     deployedLink: "https://github.com/gregory-rutherford/Amazon2-TheReturn",
     imgLink: "https://i.imgur.com/jTtghFc.jpg",
     description: "A mock amazon database. Built with Node.js, Inquirer, SQL, and Javascript. A solid introduction to running SQL queries in Javascript."

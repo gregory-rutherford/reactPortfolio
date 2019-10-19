@@ -16,16 +16,23 @@ const Body = function Body() {
       <div className="grid">
         {data.map(item => (
           <Card className="card">
-            <a className="imgLink" href={item.deployedLink}>
-              <img
-                className="projectPic"
-                src={item.imgLink}
-                alt="project"       
-              />
+            <a
+              className="imgLink"
+              href={item.deployedLink}
+              target="_blank"
+              without
+              rel="noopener noreferrer"
+            >
+              <img className="projectPic" src={item.imgLink} alt="project" />
             </a>
             <Media.Item renderAs="figure">
               <div className="text">
-                <a href={item.ghLink}>
+                <a
+                  href={item.ghLink}
+                  target="_blank"
+                  without
+                  rel="noopener noreferrer"
+                >
                   <Heading size={3}>{item.title}</Heading>
                 </a>
                 <Heading subtitle size={5}>

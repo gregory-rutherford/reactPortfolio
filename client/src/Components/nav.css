@@ -3,18 +3,20 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #e3cbcb;
+  background-color: #A5B4CC;
   font-family: "PT Sans", sans-serif;
 }
 
 .contactLinks {
-  color: black !important;
+  color: black!important;
   text-shadow: 1px 1px #eafcf9b7;
+  text-decoration: underline;
 }
 
 .contactLinks:hover {
-    color: #fffffe !important;
+    color: #fefeffea !important;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.671);
+    text-decoration-color: black;
 }
 
 @media only screen and (max-width: 600px) {

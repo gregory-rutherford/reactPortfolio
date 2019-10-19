@@ -13,6 +13,9 @@ const Nav = function Nav() {
         <a
           className="contactLinks"
           href="https://github.com/gregory-rutherford"
+          target="_blank"
+          without
+          rel="noopener noreferrer"
         >
           github
         </a>
@@ -21,6 +24,9 @@ const Nav = function Nav() {
         <a
           className="contactLinks"
           href="https://www.linkedin.com/in/gregory-rutherford-01aba73b/"
+          target="_blank"
+          without
+          rel="noopener noreferrer"
         >
           linkedin
         </a>
@@ -28,7 +34,10 @@ const Nav = function Nav() {
       <p className="contactHead">
         <a
           className="contactLinks"
-          href="https://drive.google.com/file/d/19bJeEmeZQrjdfbJyLwCMnNOdKPDcU_1-/view"
+          href="https://drive.google.com/file/d/1vN9IYiNFLtjAcHbY8Ly5dZNknbeHgvA4/view"
+          target="_blank"
+          without
+          rel="noopener noreferrer"
         >
           resume
         </a>

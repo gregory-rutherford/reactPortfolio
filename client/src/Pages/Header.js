@@ -10,18 +10,17 @@ const Header = function Header() {
           <Columns.Column>
             <img
               className="profileImg"
-              src="https://avatars1.githubusercontent.com/u/46570985?s=460&v=4"
+              src="https://i.imgur.com/hvJmgpK.jpg"
               alt="profile"
             />
             <p>
-              Me with an umbrella standing next to "Hachiko" at Shibuya Station
-              in Tokyo
+              Me in front of a patterned wall in Barcelona, Spain 2019
             </p>
           </Columns.Column>
           <Columns.Column>
             <p className="intro">
-              Hi, my name is Gregory Rutherford. I am a full stack web
-              developer.
+              Hi, my name is <span id="emphasis">Gregory Rutherford</span>. I am
+              a full stack web developer.
             </p>
             <div id="summary">
               <p>
@@ -29,7 +28,9 @@ const Header = function Header() {
                 professional background is primarily in logistics, but I am
                 excited to demonstrate my new skills and grow as a developer. I
                 would like to collaborate with a team of developers to work on
-                cutting edge, accessible, and responsive web applications. Currently I'm quite fond of React and most of my recent work has been built using Create React App. 
+                cutting edge, accessible, and responsive web applications.
+                Currently I'm quite fond of React and most of my recent work has
+                been built using Create React App.
               </p>
             </div>
           </Columns.Column>

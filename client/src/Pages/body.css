@@ -17,7 +17,7 @@
   align-content: center;
   justify-content: center;
   box-shadow: 1px 1px 3px grey;
-  background: #848fa570;
+  background-color: #FFEBE8;
   font-family: "PT Sans", sans-serif;
   padding-top: 60px;
 }
@@ -42,7 +42,9 @@
 }
 
 .title:hover {
-  color: rgb(34, 121, 236) !important;
+  color: black !important;
+  text-decoration: underline;
+  outline: 2px rgba(0, 0, 0, 0.774) solid;
 }
 
 .text {
@@ -50,7 +52,7 @@
   flex-direction: column;
   width: 500px;
   text-align: center;
-  background-color: #848fa536;
+  background-color: rgba(132,143,165,.21);
   padding: 5px;
   letter-spacing: .45px;
   height: 100%;

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 .box {
-    background-color: #9daac58c !important;
+    background-color: #A5B4CC;
     text-align: center;
     align-items: baseline;
     color: black !important;
@@ -10,7 +10,7 @@
 .profileImg {
     box-shadow: 1px 1px 2px black;
     border-radius: 5%;
-    height: 375px;
+    height: 500px;
     width: 375px;
 }
 
@@ -32,3 +32,6 @@ p {
     font-size: 60px;
 }
 
+#emphasis {
+    font-weight: 700;
+}
