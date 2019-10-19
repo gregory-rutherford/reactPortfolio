@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 .box {
-    background-color: #A5B4CC;
+    background-color: #A5B4CC !important;
     text-align: center;
     align-items: baseline;
     color: black !important;
