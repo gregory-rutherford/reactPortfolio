@@ -30,6 +30,8 @@ p {
 .intro {
     margin-top: 10px;
     font-size: 60px;
+    line-height: 70px;
+    margin-bottom:10px
 }
 
 #emphasis {

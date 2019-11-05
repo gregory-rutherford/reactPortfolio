@@ -1,5 +1,6 @@
 import React from "react";
 import "./nav.css";
+import PDF from "../Documents/RutherfordResume(1).pdf"
 
 const Nav = function Nav() {
   return (
@@ -34,7 +35,7 @@ const Nav = function Nav() {
       <p className="contactHead">
         <a
           className="contactLinks"
-          href="https://drive.google.com/file/d/1vN9IYiNFLtjAcHbY8Ly5dZNknbeHgvA4/view"
+          href={PDF}
           target="_blank"
           without
           rel="noopener noreferrer"
