@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.css";
-import PDF from "../Documents/RutherfordResume(1).pdf"
+import PDF from "../Documents/RutherfordResume.pdf"
 
 const Nav = function Nav() {
   return (
