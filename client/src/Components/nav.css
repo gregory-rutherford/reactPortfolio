@@ -10,7 +10,7 @@ nav {
 .contactLinks {
   color: black!important;
   text-shadow: 1px 1px #eafcf9b7;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .contactLinks:hover {

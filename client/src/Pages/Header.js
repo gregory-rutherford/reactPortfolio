@@ -24,12 +24,11 @@ const Header = function Header() {
             </p>
             <div id="summary">
               <p>
-                I am a web developer, drummer, and all around motivated learner. I just finished a 6 month web developement bootcamp at the 
-                UT Austin Center for Professional Developemnt. My
-                 background is primarily in logistics, but I am
+                I am a web developer, drummer, and all around motivated learner. My
+                background is primarily in logistics, but I am
                 excited to demonstrate my new skills and grow as a developer in a professional setting. I
                 would like to collaborate with a team of developers to work on
-                cutting edge, accessible, and responsive web applications.
+                cutting edge, accessible, and responsive web applications. My toolbox contains HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and SQL.
                 Currently I'm quite fond of the React framework, and most of my recent work has
                 been built using React Hooks.
               </p>

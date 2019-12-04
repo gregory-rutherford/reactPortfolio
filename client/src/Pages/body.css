@@ -39,6 +39,7 @@
 
 .title {
   color: black !important;
+  font-weight: 500;
 }
 
 .title:hover {
@@ -77,6 +78,7 @@
 .anchor {
   color: black;
 }
+
 
 #ghLink {
   align-self: flex-end;
