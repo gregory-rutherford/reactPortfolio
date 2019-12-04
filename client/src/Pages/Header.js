@@ -24,13 +24,14 @@ const Header = function Header() {
             </p>
             <div id="summary">
               <p>
-                I am a recent graduate of the UT Austin Coding Bootcamp. My
-                professional background is primarily in logistics, but I am
-                excited to demonstrate my new skills and grow as a developer. I
+                I am a web developer, drummer, and all around motivated learner. I just finished a 6 month web developement bootcamp at the 
+                UT Austin Center for Professional Developemnt. My
+                 background is primarily in logistics, but I am
+                excited to demonstrate my new skills and grow as a developer in a professional setting. I
                 would like to collaborate with a team of developers to work on
                 cutting edge, accessible, and responsive web applications.
-                Currently I'm quite fond of React and most of my recent work has
-                been built using Create React App.
+                Currently I'm quite fond of the React framework, and most of my recent work has
+                been built using React Hooks.
               </p>
             </div>
           </Columns.Column>
