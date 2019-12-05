@@ -14,7 +14,7 @@ nav {
 }
 
 .contactLinks:hover {
-    color: #fefeffea !important;
+    color: rgb(226, 149, 6) !important;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.671);
     text-decoration-color: black;
 }
