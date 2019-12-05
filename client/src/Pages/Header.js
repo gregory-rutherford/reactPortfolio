@@ -13,24 +13,28 @@ const Header = function Header() {
               src="https://i.imgur.com/hvJmgpK.jpg"
               alt="profile"
             />
-            <p>
+            <p id="small">
               Me in front of a patterned wall in Barcelona, Spain 2019
             </p>
           </Columns.Column>
           <Columns.Column>
             <p className="intro">
-              Hi, my name is <span id="emphasis">Gregory Rutherford</span>. I am
-              a full stack web developer.
+              Hi, my name is <span id="emphasis">Gregory Rutherford</span>.
             </p>
             <div id="summary">
               <p>
-                I am a recent graduate of the UT Austin Coding Bootcamp. My
-                professional background is primarily in logistics, but I am
-                excited to demonstrate my new skills and grow as a developer. I
+                I am a <span className="orange">Full Stack Web Developer</span>,
+                drummer, and all around motivated learner. My background is
+                primarily in logistics, but I am excited to demonstrate my new
+                skills and grow as a developer in a professional setting. I
                 would like to collaborate with a team of developers to work on
-                cutting edge, accessible, and responsive web applications.
-                Currently I'm quite fond of React and most of my recent work has
-                been built using Create React App.
+                cutting edge, accessible, and responsive web applications. My
+                toolbox contains{" "}
+                <span className="orange">
+                  HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and
+                  SQL. 
+                </span> Currently I'm quite fond of the React framework, and most of my
+                recent work has been built using React Hooks.
               </p>
             </div>
           </Columns.Column>

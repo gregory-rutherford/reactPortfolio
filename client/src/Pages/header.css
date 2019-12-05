@@ -10,8 +10,8 @@
 .profileImg {
     box-shadow: 1px 1px 2px black;
     border-radius: 5%;
-    height: 500px;
-    width: 375px;
+    height: 425px;
+    width: 315px;
 }
 
 .column {
@@ -29,11 +29,26 @@ p {
 
 .intro {
     margin-top: 10px;
-    font-size: 60px;
+    font-size: 54px;
     line-height: 70px;
     margin-bottom:10px
 }
 
+.subtitle {
+    color: rgba(0, 0, 0, 0.835) !important;
+}
+.orange {
+    text-shadow: 1px 1px rgb(226, 149, 6);
+}
+
+#small {
+    font-size: 16px;
+}
+
+
+
 #emphasis {
-    font-weight: 700;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgb(226, 149, 6);
 }

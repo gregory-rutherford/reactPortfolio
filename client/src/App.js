@@ -3,11 +3,12 @@ import Header from "./Pages/Header";
 import Projects from "./Pages/Body.js";
 import Nav from "./Components/Nav";
 
+
 function App() {
   return (
     <div>
       <Header />
-      <Nav />
+      <Nav />   
       <Projects />
     </div>
   );
