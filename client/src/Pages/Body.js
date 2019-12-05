@@ -24,6 +24,7 @@ const Body = function Body() {
               target="_blank"
               without
               rel="noopener noreferrer"
+              title="deployed page"
             >
               <img className="projectPic" src={item.imgLink} alt="project" />
             </a>
@@ -34,6 +35,7 @@ const Body = function Body() {
                   target="_blank"
                   without
                   rel="noopener noreferrer"
+                  title="repository link"
                 >
                   <Heading size={3}>
                     <FontAwesomeIcon icon={faCode} />

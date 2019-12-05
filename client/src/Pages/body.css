@@ -39,7 +39,7 @@
 
 .title {
   color: black !important;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .title:hover {

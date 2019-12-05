@@ -1,10 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
+p {
+    font-size: 20px;
+}
+
+a#discogs  {
+    text-decoration: underline 1px rgb(226, 149, 6);
+    color: black;
+}
+
+a#discogs:hover {
+    text-decoration-color: blue;
+}
+
 .box {
     background-color: #A5B4CC !important;
     text-align: center;
     align-items: baseline;
     color: black !important;
     font-family: 'PT Sans', sans-serif;
+    border-radius: 0px !important;
 }
 
 .profileImg {
@@ -18,9 +32,7 @@
     align-self: center;
 }
 
-p {
-    font-size: 20px;
-}
+
 
 .contactHead {
     font-size: 42px !important;
