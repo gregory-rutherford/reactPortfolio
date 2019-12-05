@@ -37,6 +37,15 @@ p {
 .subtitle {
     color: rgba(0, 0, 0, 0.835) !important;
 }
+.orange {
+    text-shadow: 1px 1px rgb(226, 149, 6);
+}
+
+#small {
+    font-size: 16px;
+}
+
+
 
 #emphasis {
     font-weight: 500;

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card, Media, Heading } from "react-bulma-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 import projectData from "../Data.js";
 import "./body.css";
 
@@ -33,7 +35,10 @@ const Body = function Body() {
                   without
                   rel="noopener noreferrer"
                 >
-                  <Heading size={3}>{item.title}</Heading>
+                  <Heading size={3}>
+                    <FontAwesomeIcon icon={faCode} />
+                    {item.title}
+                  </Heading>
                 </a>
                 <Heading subtitle size={5}>
                   {item.description}
