@@ -9,7 +9,7 @@ const Nav = function Nav() {
   return (
     <nav>
       <p className="contactHead">
-        <a className="contactLinks" href="mailto:gregorford@gmail.com">
+        <a className="contactLinks" href="mailto:gregorford@gmail.com" title="email">
           <FontAwesomeIcon icon={faPaperPlane} /> email
         </a>
       </p>
@@ -20,6 +20,7 @@ const Nav = function Nav() {
           target="_blank"
           without
           rel="noopener noreferrer"
+          title="github"
         >
           <FontAwesomeIcon icon={faGithub} /> github
         </a>
@@ -31,6 +32,7 @@ const Nav = function Nav() {
           target="_blank"
           without
           rel="noopener noreferrer"
+          title="linkedin"
         >
           <FontAwesomeIcon icon={faLinkedinIn} /> linkedin
         </a>
@@ -42,6 +44,7 @@ const Nav = function Nav() {
           target="_blank"
           without
           rel="noopener noreferrer"
+          title="resume"
         >
           <FontAwesomeIcon icon={faFile} /> resume
         </a>
