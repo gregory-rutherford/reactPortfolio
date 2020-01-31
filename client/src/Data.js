@@ -1,5 +1,12 @@
 const projectData = [
   {
+    title: "Radioactivity",
+    ghLink: "https://github.com/gregory-rutherford/radioactivityTx",
+    deployedLink: "https://www.radioactivitytx.com/",
+    imgLink: "https://raw.githubusercontent.com/gregory-rutherford/radioactivityTx/master/assets/Images/screenshot.png",
+    description: "Mobile-responsive web page made for the band 'Radioactivity'. Uses HTML, CSS, and JavaScript. Hosted on Netlify. Learned the value of using relative font sizes and issues between the mobile versions of the firefox and chrome browsers."
+  },
+  {
     title: "Canine Connection",
     ghLink: "https://github.com/ut-group7/DogBook",
     deployedLink: "https://canineconnection.herokuapp.com/",
@@ -26,13 +33,6 @@ const projectData = [
     deployedLink: "https://gregory-rutherford.github.io/MegamanClickGame/",
     imgLink: "https://i.imgur.com/kgufZ61.jpg",
     description: "My first react app. A simple memory game featuring the robot masters of MMII. Uses Create React App and React class componenets as well as the Fisher-Yates shuffling algorithm."
-  },
-  {
-    title: "Crystal Clicker",
-    ghLink: "https://github.com/gregory-rutherford/Crystal-Game/blob/master/assets/javascript/game.js",
-    deployedLink: "https://gregory-rutherford.github.io/Crystal-Game/",
-    imgLink: "https://i.imgur.com/W1FL8J3.jpg",
-    description: "A simple game made with Jquery and Javascript. This was an assignment that I enjoyed working on as I had finally begun to understand the concepts of Javascript, and the importantance of organized code."
   },
   {
     title: "CLI Mock Amazon",

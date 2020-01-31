@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Columns } from "react-bulma-components/full";
 import "./header.css";
+import photo from "../Documents/Images/spain2019crop.jpg";
 
 const Header = function Header() {
   return (
@@ -8,11 +9,7 @@ const Header = function Header() {
       <Box>
         <Columns>
           <Columns.Column>
-            <img
-              className="profileImg"
-              src="https://i.imgur.com/hvJmgpK.jpg"
-              alt="profile"
-            />
+            <img className="profileImg" src={photo} alt="profile" />
             <p id="small">
               Me in front of a patterned wall in Barcelona, Spain 2019
             </p>

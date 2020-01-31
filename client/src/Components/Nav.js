@@ -1,15 +1,19 @@
 import React from "react";
 import "./nav.css";
-import PDF from "../Documents/RutherfordResume.pdf"
+import PDF from "../Documents/RutherfordResume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane, faFile} from "@fortawesome/free-solid-svg-icons";
-import {faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Nav = function Nav() {
   return (
     <nav>
       <p className="contactHead">
-        <a className="contactLinks" href="mailto:gregorford@gmail.com" title="email">
+        <a
+          className="contactLinks"
+          href="mailto:gregorford@gmail.com"
+          title="email"
+        >
           <FontAwesomeIcon icon={faPaperPlane} /> email
         </a>
       </p>

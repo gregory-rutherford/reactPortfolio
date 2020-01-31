@@ -1,66 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Sans:400,700&display=swap");
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-a#discogs  {
-    text-decoration: underline 1px rgb(226, 149, 6);
-    color: black;
+a#discogs {
+  text-decoration: underline 1px rgb(226, 149, 6);
+  color: black;
 }
 
 a#discogs:hover {
-    text-decoration-color: blue;
+  text-decoration-color: blue;
 }
 
 .box {
-    background-color: #A5B4CC !important;
-    text-align: center;
-    align-items: baseline;
-    color: black !important;
-    font-family: 'PT Sans', sans-serif;
-    border-radius: 0px !important;
+  background-color: #a5b4cc !important;
+  text-align: center;
+  align-items: baseline;
+  color: black !important;
+  font-family: "PT Sans", sans-serif;
+  border-radius: 0px !important;
 }
 
 .profileImg {
-    box-shadow: 1px 1px 2px black;
-    border-radius: 5%;
-    height: 425px;
-    width: 315px;
+  box-shadow: 1px 1px 2px black;
+  border-radius: 5%;
+  max-height: 486px;
+  width: 400px;
 }
 
 .column {
-    align-self: center;
+  align-self: center;
 }
 
-
-
 .contactHead {
-    font-size: 42px !important;
-    margin: 14px;
+  font-size: 42px !important;
+  margin: 14px;
 }
 
 .intro {
-    margin-top: 10px;
-    font-size: 54px;
-    line-height: 70px;
-    margin-bottom:10px
+  margin-top: 10px;
+  font-size: 54px;
+  line-height: 70px;
+  margin-bottom: 10px;
 }
 
 .subtitle {
-    color: rgba(0, 0, 0, 0.835) !important;
+  color: rgba(0, 0, 0, 0.835) !important;
 }
 .orange {
-    text-shadow: 1px 1px rgb(226, 149, 6);
+  text-shadow: 1px 1px rgb(226, 149, 6);
 }
 
 #small {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-
-
 #emphasis {
-    font-weight: 500;
-    text-decoration: underline;
-    text-decoration-color: rgb(226, 149, 6);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgb(226, 149, 6);
 }

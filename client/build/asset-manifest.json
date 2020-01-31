@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2f5d991.chunk.css",
-    "main.js": "/static/js/main.5ca84bb5.chunk.js",
-    "main.js.map": "/static/js/main.5ca84bb5.chunk.js.map",
+    "main.css": "/static/css/main.4cf51550.chunk.css",
+    "main.js": "/static/js/main.b19887f3.chunk.js",
+    "main.js.map": "/static/js/main.b19887f3.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.e1057352.js",
     "runtime~main.js.map": "/static/js/runtime~main.e1057352.js.map",
-    "static/js/2.f828db48.chunk.js": "/static/js/2.f828db48.chunk.js",
-    "static/js/2.f828db48.chunk.js.map": "/static/js/2.f828db48.chunk.js.map",
+    "static/js/2.065b919b.chunk.js": "/static/js/2.065b919b.chunk.js",
+    "static/js/2.065b919b.chunk.js.map": "/static/js/2.065b919b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4c5babfe2709626ed571f2d32e227f71.js": "/precache-manifest.4c5babfe2709626ed571f2d32e227f71.js",
+    "precache-manifest.b1b50be888401983e9af33aba4dd366a.js": "/precache-manifest.b1b50be888401983e9af33aba4dd366a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c2f5d991.chunk.css.map": "/static/css/main.c2f5d991.chunk.css.map",
-    "static/media/RutherfordResume.pdf": "/static/media/RutherfordResume.1077f599.pdf"
+    "static/css/main.4cf51550.chunk.css.map": "/static/css/main.4cf51550.chunk.css.map",
+    "static/media/RutherfordResume.pdf": "/static/media/RutherfordResume.1077f599.pdf",
+    "static/media/spain2019crop.jpg": "/static/media/spain2019crop.be45f4f6.jpg"
   }
 }
